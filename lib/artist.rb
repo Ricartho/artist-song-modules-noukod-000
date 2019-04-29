@@ -14,6 +14,7 @@ class Artist
   def initialize
     @@artists << self
     @songs = []
+    $val << self
   end
 
   def self.all
