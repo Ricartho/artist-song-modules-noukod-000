@@ -7,4 +7,9 @@ module Memorable
   def count
     @@artists.count
   end
+  
+  def initialize
+    @@artists << self
+    @songs = []
+  end
 end 
