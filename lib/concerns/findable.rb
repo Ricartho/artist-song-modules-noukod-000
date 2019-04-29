@@ -1,1 +1,3 @@
-class Finda
+class Findable
+  
+end 
