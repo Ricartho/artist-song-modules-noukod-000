@@ -1,3 +1,3 @@
-class Findable
+module Findable
   
 end 
