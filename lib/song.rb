@@ -7,11 +7,11 @@ class Song
   attr_reader :artist
 
   @@songs = []
-  $val = []
+  
   
   def initialize
     @@songs << self
-    $val << self
+   
   end
 
   # def self.find_by_name(name)
